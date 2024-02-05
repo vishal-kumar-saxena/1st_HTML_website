@@ -1,2 +1,2 @@
-# 1st_HTML_website
+# smartphone
 Smartphone Project
