@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.blur{
+    background-image: url(2.jpg);
+     height: 400px;
+     background-size: cover;
+     display: block;
+     }
+.nav{
+    background-color:rgba(0, 255, 255, 0.205);
+    height: 50px;
+}
+.nav .logo{
+    width: 40%;
+    float: left;
+    margin-top: 5px;
+}
+.nav .logo h1{
+    margin-left: 20px;
+    color: aliceblue;
+}
+.nav .data ul{
+    list-style: none;
+}
+.nav .data ul li{
+    margin-left: 100px;
+    float:left;
+    padding: 15px 0px 0px 10px;
+    text-align: right;
+}
+.nav .data ul li a{
+    text-decoration-line: none;
+    color:rgb(1, 0, 0);
+    font-size: 20px;
+    font-weight:bold;
+    }
+.nav .data ul li a:hover{
+    color: cornflowerblue;
+}
+.nav .data{
+    width: 40%;
+    float: right;
+    } 
+    
+body{
+   background-image: url(bgg.png);
+   background-size: cover;
+}
+.box
+{
+    height: 500px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    /* background-image: url(bgg.png); */
+    /* background-size: cover; */
+    margin-left: 25%;
+    border-radius: 10px;
+}
+.innerbox
+{
+    background-color: rgba(128, 128, 128, 0);
+    height: 100px;
+   
+}
+
+.fname
+{
+    width: 40%;
+    background-color: rgba(153, 205, 50, 0);
+    height: 80px;
+    float: left;
+    margin: 15px;
+    margin-left: 8%;
+
+}
+.lname{
+    width: 40%;
+    background-color: rgba(229, 139, 197, 0);
+    height: 80px;
+    float: left;
+    margin: 15px
+    }
+input[type=text]
+{
+    background-color: rgba(255, 255, 255, 0);
+    height:40px;
+    width: 100%;
+    
+    border-top: 0;
+    border-bottom: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+.innerbox2
+{
+    background-color: rgba(44, 73, 74, 0);
+    height: 100px;
+    margin-left: 52px;
+    margin-right: 52px;
+ 
+   
+}
+.innerbox2
+{
+    background-color: rgba(49, 171, 175, 0);
+    height: 100px;
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-top: -10px;
+   
+}
+.Email
+{
+    height: 80px;
+
+}
+input[type=button]
+{
+    width: 50%;
+    height: 40px;
+    
+    background-color: aqua;
+    border: 0px;
+    border-radius: 50px;
+    margin-left: 20PX;
+    
+}
+input[type=button]:hover{
+    background-color: rgb(246, 130, 192);
+    box-shadow: 2px,2px ,2px ,2px;
+ 
+ }
+.innerbox3
+{
+    background-color: rgba(44, 73, 74, 0);
+    height: 100px;
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-top: -10px;
+   
+}
+.innerbox4
+{
+    background-color: rgba(85, 224, 26, 0);
+    height: 100px;
+    margin-left: 30%;
+    margin-right: 52px;
+    margin-top: -10px;
+    width: 70%;
+   
+}
